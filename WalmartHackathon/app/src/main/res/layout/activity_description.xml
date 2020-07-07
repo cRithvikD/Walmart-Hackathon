@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:text="Aisle 1 (Electronics)"
 
@@ -24,47 +24,55 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
         android:text="Description: This aisle contains electronics like TVs, Laptops, Video games, Cameras, and what not!"
 
         android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold" />
-    <TextView
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:prompt="@string/spinner_title"/>
+
+    <EditText
+        android:id="@+id/t1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
         android:duration="600"
-        android:text="1. LG Television          In Stock"
         android:textColor="#00FF00"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
-    <TextView
+    <EditText
+        android:id="@+id/t2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:duration="600"
-        android:text="2. HP Envy Laptop      In Stock"
         android:textColor="#00FF00"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
-    <TextView
+    <EditText
+        android:id="@+id/t3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:duration="600"
-        android:text="3. XBox One         Out of Stock"
         android:textColor="#FF0000"
-        android:textSize="18sp"
+        android:textSize="22sp"
         android:textStyle="bold" />
 
 
@@ -74,7 +82,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="10dp"
         android:text="Check Status" />
     <Button
@@ -82,7 +90,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:text="Main Menu" />
 
